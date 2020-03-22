@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LanguageChoose"
+    android:orientation="vertical">
+
+        <GridView
+           android:layout_width="match_parent"
+           android:layout_height="400dp"
+           android:id="@+id/gridView"
+           android:layout_gravity="center"
+           android:listSelector="@android:color/transparent"
+           android:numColumns="1"
+          />
+            <TextView
+             android:id="@+id/city"
+             android:layout_gravity="bottom"
+             android:layout_width="match_parent"
+             android:layout_height="56dp"
+             android:background="#00ffff"
+             android:visibility="invisible"
+             android:text="Done"
+             android:onClick="tvClick"
+             android:textSize="50dp"
+             android:gravity="right"
+             />
+</LinearLayout>

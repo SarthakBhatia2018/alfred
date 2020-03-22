@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".LogIn"
+android:background="#FFFFFF"
+android:orientation="vertical"
+android:padding="30dp">
+   <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:src="@drawable/login_icon"
+    android:padding="50dp"
+    />
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_marginTop="10dp"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email ID"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textSize="22sp"
+        />
+</com.google.android.material.textfield.TextInputLayout>
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_marginTop="10dp"
+    app:passwordToggleEnabled="true"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        />
+</com.google.android.material.textfield.TextInputLayout>
+
+<Button
+    android:id="@+id/btnlogin"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:text="LogIn"
+    android:textSize="22sp"
+    android:textColor="#ffffff"
+    android:layout_marginTop="40dp"
+    android:background="@drawable/button_rounded"
+    >
+</Button>
+<Button
+    android:id="@+id/btnsign"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:text="SignUp"
+    android:textSize="22sp"
+    android:textColor="#ffffff"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/button_rounded"
+    ></Button>
+</LinearLayout>

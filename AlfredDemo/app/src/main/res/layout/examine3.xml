@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rectangle"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:text="Question:2/10"
+
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="220dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="What is the sum of 2+14?"
+            android:background="#ff5500"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="left"
+            android:text="10"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="left"
+            android:text="25"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="left"
+            android:text="16"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="left"
+            android:text="30"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/rectangle"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Complete 8 more questions to unlock Next\n
+             Level "
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:text="2 out of 10 Completed "
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="#ff4500"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="20dp"
+        android:background="#ff4500"
+        android:hint="NEXT ->"
+        android:textSize="25dp" />
+</LinearLayout>
+
+
+
